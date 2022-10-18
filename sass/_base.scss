@@ -1,6 +1,6 @@
 body {
-    background-color: ($pbgc);
-    color: ($ptxc);
+    background-color: $pbgc;
+    color: $ptxc;
     font-family: Lato, sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -18,12 +18,12 @@ body {
   }
 
   .container .a {
-    text-decoration: none; /* Убираем подчёркивание */
+    text-decoration: none;
     margin-top: 0;
     margin-bottom: 0;
     font-family: Lato, sans-serif;
     font-size: 17px;
-    color: var(--primery-text-color);
+    color: $ptxc;
   }
   .container {
     margin-top: 100px;
