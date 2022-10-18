@@ -1,0 +1,65 @@
+.house-all {
+    background-color: #f7f6f1;
+    padding-top: 10px;
+    padding-bottom: 80px;
+  }
+  
+  .house-all .container {
+      margin-top: 0;
+  }
+  
+  .house-one-first {
+    display: flex;
+    margin-top: 60px;
+  }
+  
+  .house-one-image {
+    display: block;
+    margin-top: 10px;
+  
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+  
+    border-color: RGBA(255, 255, 255, 0);
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    box-shadow: 6px 6px 0px -5px #eb1d36;
+
+  }
+  
+  .house-one-text-all {
+    width: 50%;
+  }
+  
+  .house-one-text {
+    margin-top: 30px;
+  }
+
+  .house-two-first {
+    display: flex;
+    margin-top: 50px;
+  }
+  
+  .house-two-image {
+    display: block;
+    margin-top: 20px;
+  
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+  
+    border-color: RGBA(255, 255, 255, 0);
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    box-shadow: 6px 6px 0px -5px #eb1d36;
+
+  }
+  
+  .house-two-text-all {
+    width: 50%;
+  }
+  
+  .house-two-text {
+    margin-top: 30px;
+  }

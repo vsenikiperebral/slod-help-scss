@@ -1,0 +1,36 @@
+body {
+    background-color: ($pbgc);
+    color: ($ptxc);
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0em;
+    line-height: 1.8;
+  }
+
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 1200px;
+  //outline: 2px solid tomato;
+  }
+
+  .container .a {
+    text-decoration: none; /* Убираем подчёркивание */
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Lato, sans-serif;
+    font-size: 17px;
+    color: var(--primery-text-color);
+  }
+  .container {
+    margin-top: 100px;
+  }
+  
+  .audio {
+    align-self: start;
+    margin-left: 40px;
+    margin-top: 8px;
+  }
