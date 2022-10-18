@@ -1,48 +1,46 @@
 .contacts-word {
-    font-family: Aleo, serif;
-    font-weight: 700;
-    font-size: 18px;
-    margin-top: 11px;
+  font-family: Aleo, serif;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 11px;
   margin-bottom: 10px;
-  }
+}
 
 .item.phone::before {
-    display: inline-block;
-    content: "";
-    width: 32px;
-    height: 33px;
-    /* outline: 1px solid black; */
-    background-image: url("../icons/phone.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+  display: inline-block;
+  content: "";
+  width: 32px;
+  height: 33px;
+  /* outline: 1px solid black; */
+  background-image: url("../icons/phone.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .item.mail::before {
-    display: inline-block;
-    content: "";
-    width: 28px;
-    height: 33px;
-    /* outline: 1px solid black; */
-background-image: url("../icons/mail.png");    
-background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+  display: inline-block;
+  content: "";
+  width: 28px;
+  height: 33px;
+  /* outline: 1px solid black; */
+  background-image: url("../icons/mail.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .item.address::before {
-    display: inline-block;
-    content: "";
-    width: 33px;
-    height: 33px;
-    /* outline: 1px solid black; */
-background-image: url("../icons/address.png");    
-background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+  display: inline-block;
+  content: "";
+  width: 33px;
+  height: 33px;
+  /* outline: 1px solid black; */
+  background-image: url("../icons/address.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
-
 
 .container .title {
   text-align: center;
