@@ -15,6 +15,7 @@ body {
   background-color: ($pbgc);
   color: ($ptxc);
   font-family: Lato, sans-serif;
+  font-weight: 400;
   font-size: 20px;
   letter-spacing: 0em;
   line-height: 1.8;
@@ -30,13 +31,17 @@ h7 {
   line-height: 1.2em;
 }
 
+h1 {
+    font-size: 85px;
+}
+
 h2 {
   display: block;
   font-size: 54px;
   font-weight: 700;
   position: relative;
   padding-bottom: 30px;
-  &::after {
+    &::after {
     content: "";
     display: block;
     width: 100%;
@@ -46,8 +51,10 @@ h2 {
     position: absolute;
     left: 0;
     bottom: 0;
-  }
+    }
 }
+
+
 h4 {
   font-weight: 700;
   font-size: 18px;
