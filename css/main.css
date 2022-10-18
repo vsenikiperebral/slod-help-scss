@@ -309,6 +309,15 @@ h3 {
   display: flex;
   margin-top: 30px;
 }
+.about span {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fa9494;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
 
 .about-text-all {
   margin-top: -60px;
@@ -577,6 +586,11 @@ h3 {
   padding-bottom: 30px;
 }
 
+.contacts.list .link {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 17px;
+}
+
 .contacts-word {
   font-family: Aleo, serif;
   font-weight: 700;
@@ -590,11 +604,6 @@ h3 {
   content: "";
   width: 32px;
   height: 33px;
-  /* outline: 1px solid black; */
-  background-image: url("../icons/phone.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .item.mail::before {
@@ -602,11 +611,6 @@ h3 {
   content: "";
   width: 28px;
   height: 33px;
-  /* outline: 1px solid black; */
-  background-image: url("../icons/mail.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .item.address::before {
@@ -614,11 +618,6 @@ h3 {
   content: "";
   width: 33px;
   height: 33px;
-  /* outline: 1px solid black; */
-  background-image: url("../icons/address.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .container .title {
@@ -667,6 +666,22 @@ h3 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.icon-phone {
+  fill: #fa9494;
+}
+
+.icon-mail {
+  fill: #fa9494;
+}
+
+.icon-map {
+  fill: #fa9494;
+}
+
+.appart-img {
+  margin-top: 30px;
 }
 
 .flex-map {
