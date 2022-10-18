@@ -1,6 +1,19 @@
+// Text color
+$ptxc: rgba(0, 0, 0, 0.8);
+$pbgc: #ffffff;
+$navlpc: rgba(255, 255, 255, 0.8);
+$navlac: #fa9494;
+
+//Button color
+$btnbgc: #fa9494;
+
+// Border color
+$brdc: #000000;
+$brdc-red: #eb1d36;
+
 body {
-  background-color: #ffffff;
-  color: rgba(0, 0, 0, 0.8);
+  background-color: ($pbgc);
+  color: ($ptxc);
   font-family: Lato, sans-serif;
   font-size: 20px;
   letter-spacing: 0em;
@@ -23,18 +36,18 @@ h2 {
   font-weight: 700;
   position: relative;
   padding-bottom: 30px;
-}
-h2::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 1px;
-  background-color: #eb1d36;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: $brdc-red;
 
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
 h4 {
   font-weight: 700;
   font-size: 18px;
@@ -43,7 +56,6 @@ h4 {
   margin-top: 0;
   padding-bottom: 50;
 }
-
 h5 {
   font-size: 25px;
   font-weight: 700;
@@ -64,4 +76,4 @@ h7 {
   font-weight: 700;
   color: var(--primery-text-color);
   text-align: center;
-}/*# sourceMappingURL=main.css.map */
+}
