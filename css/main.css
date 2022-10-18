@@ -443,9 +443,22 @@ h3 {
   margin-top: 100px;
 }
 
+.house-three-image-one {
+  display: block;
+  margin-top: -40px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-right: auto;
+  border-color: RGBA(255, 255, 255, 0);
+  border-left-width: 10px;
+  border-top-width: 10px;
+  -webkit-box-shadow: -6px -6px 0px -5px #eb1d36;
+          box-shadow: -6px -6px 0px -5px #eb1d36;
+}
+
 .house-three-image-two {
   margin-top: 400px;
-  margin-left: -200px;
+  margin-left: -260px;
 }
 
 .house-three-text-all {
@@ -465,9 +478,22 @@ h3 {
   margin-top: 80px;
 }
 
+.house-four-image-one {
+  display: block;
+  margin-top: -40px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-right: auto;
+  border-color: RGBA(255, 255, 255, 0);
+  border-left-width: 10px;
+  border-top-width: 10px;
+  -webkit-box-shadow: -6px -6px 0px -5px #eb1d36;
+          box-shadow: -6px -6px 0px -5px #eb1d36;
+}
+
 .house-four-image-two {
   margin-top: 400px;
-  margin-left: -200px;
+  margin-left: -260px;
 }
 
 .house-four-text-all {
