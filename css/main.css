@@ -95,6 +95,10 @@ body {
   margin-top: 8px;
 }
 
+.container.main-nav {
+  margin-top: 0;
+}
+
 h1,
 h2,
 h3,
@@ -654,27 +658,6 @@ h3 {
   font-size: 18px;
   margin-top: 11px;
   margin-bottom: 10px;
-}
-
-.item.phone::before {
-  display: inline-block;
-  content: "";
-  width: 32px;
-  height: 33px;
-}
-
-.item.mail::before {
-  display: inline-block;
-  content: "";
-  width: 28px;
-  height: 33px;
-}
-
-.item.address::before {
-  display: inline-block;
-  content: "";
-  width: 33px;
-  height: 33px;
 }
 
 .container .title {

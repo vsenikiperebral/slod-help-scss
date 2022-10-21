@@ -12,27 +12,6 @@
   margin-bottom: 10px;
 }
 
-.item.phone::before {
-  display: inline-block;
-  content: "";
-  width: 32px;
-  height: 33px;
-}
-
-.item.mail::before {
-  display: inline-block;
-  content: "";
-  width: 28px;
-  height: 33px;
-}
-
-.item.address::before {
-  display: inline-block;
-  content: "";
-  width: 33px;
-  height: 33px;
-}
-
 .container .title {
   text-align: center;
   margin-top: 150px;
