@@ -741,4 +741,24 @@ h3 {
 .appart-all {
   width: 32%;
   margin-left: auto;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 100px;
+  padding-top: 5px;
+}
+.footer span {
+  font-family: Aleo, serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.footer p {
+  padding-bottom: 10px;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
 }/*# sourceMappingURL=main.css.map */
