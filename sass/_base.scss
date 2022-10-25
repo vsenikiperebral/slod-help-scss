@@ -1,40 +1,48 @@
 body {
-    background-color: $pbgc;
-    color: $ptxc;
-    font-family: Lato, sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    letter-spacing: 0em;
-    line-height: 1.8;
-  }
+  background-color: $pbgc;
+  color: $ptxc;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0em;
+  line-height: 1.8;
 
-  .container {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 1200px;
+  @media (max-width: 1439px) {
+    background-color: red;
+  }
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 1200px;
   //outline: 2px solid tomato;
-  }
+}
 
-  .container .a {
-    text-decoration: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: Lato, sans-serif;
-    font-size: 17px;
-    color: $ptxc;
-  }
-  .container {
-    margin-top: 100px;
-  }
-  
-  .audio {
-    align-self: start;
-    margin-left: 40px;
-    margin-top: 8px;
-  }
+.container .a {
+  text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+  color: $ptxc;
+}
+.container {
+  margin-top: 100px;
+}
 
-  .container.main-nav {
-    margin-top: 0;
-  }
+.audio {
+  align-self: start;
+  // margin-left: 40px;
+  margin-top: 8px;
+}
+
+#audio {
+    width: 200px;
+}
+
+.container.main-nav {
+  margin-top: 0;
+}
